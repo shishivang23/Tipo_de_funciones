@@ -2,6 +2,7 @@
 def agregar_tarea(lisas_tareas, tarea):
     lisas_tareas.append(tarea)
     print(f"Tarea {tarea} agregada")
+    
 
 def mostrar_tareas(listas_tareas):
     if not listas_tareas:
