@@ -53,3 +53,4 @@ def validar_contrasena(contrasena):
 clave = input("Crea tu contraseña: ")
 valida, mensaje = validar_contrasena(clave)
 print (mensaje)
+print (mensaje)
