@@ -14,6 +14,7 @@ def agregar_nota(notas, alumno, nota):
 def mostrar_promedio(notas):
     if not notas:
         print("Sin notas registradas.")
+        return
     total = 0
     for registro in notas:
         total += registro ["nota"]
