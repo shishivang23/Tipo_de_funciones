@@ -4,6 +4,7 @@ def mostrar_menu():
     print("1.Ver Producto")
     print("2.Agregar producto")
     print("3.Salir")
+    
 
 def ver_productos():
     print("Lista de productos: [Vacía]")
