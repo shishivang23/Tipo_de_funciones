@@ -39,7 +39,7 @@ if es_mayor_de_edad(edad):
 else:
     print("Acceso denegado.")
 
-#Funcion de validacion compuesta:
+#6. Funcion de validacion compuesta:
 def validar_contrasena(contrasena):
     if len(contrasena) < 8:
         return False, "Mínimo 8 caracteres"
